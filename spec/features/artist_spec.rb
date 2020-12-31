@@ -22,7 +22,8 @@ describe 'navigate artist pages' do
 end
 
 describe 'artist form' do
-  it 'shows a new form that submits content and redirects and prints out params' do
+  it 'shows 
+   submits content and redirects and prints out params' do
     visit new_artist_path
 
     fill_in 'artist[name]', with: "My artist name"
